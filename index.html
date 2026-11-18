@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Introducción a localStorage</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Ejercicio de localStorage</h1>
+
+  <section>
+    <h2>Ejercicio 1: Guardar nombre</h2>
+    <form action="" id="formulario">
+      <label for="nombreGuardar">Nombre</label>
+      <br>
+      <input type="text" id="nombreGuardar">
+      <br>
+      <small id="errorNombre"></small>
+      <br>
+      <input type="submit" value="Guardar nombre">
+    </form>
+    <p id="resultado"></p>
+  </section>
+
+  <section>
+    <h2>Ejercicio 2: Mostrar el nombre guardado</h2>
+    <form action="" id="formMostrar">
+      <button type="submit">Mostrar nombre</button>
+    </form>
+    <p id="resultadoMostrar"></p>
+  </section>
+
+  <section>
+    <h2>Ejercicio 3: Editar el nombre guardado</h2>
+    <form action="" id="formEditar">
+      <label for="nombreEditar">Nuevo nombre:</label>
+      <input type="text" id="NombreEditar">
+      <button type="submit">Actualizar nombre</button>
+    </form>
+    <p id="resultadoEditar"></p>
+  </section>
+
+  <section>
+    <h2>Ejercicio 4: eliminar el nombre guardado</h2>
+    <form action="" id="formEliminar">
+      <button type="submit">Eliminar nombre</button>
+    </form>
+    <p id="resultadoEliminar"></p>
+  </section>
+
+
+
+  <form action="" id="formMascota">
+    <label for="mascota">Mascota:</label>
+    <input type="text" id="mascota">
+    
+    <label for="raza">Raza:</label>
+    <input type="text" id="raza">
+    
+    <label for="edad">Edad:</label>
+    <input type="number" id="edad" min="0">
+
+    <button type="submit">Guardar mascota</button>
+  </form>
+  <p id="resultadoMascota"></p>
+
+  <script src="app.js"></script>
+</body>
+</html>
